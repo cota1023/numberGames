@@ -11,6 +11,6 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     color: 'white',
-    fontWeight: 'bold'
+    fontFamily: 'Lato-Bold'
   },
 });

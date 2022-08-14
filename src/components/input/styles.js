@@ -1,16 +1,13 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  container: {
-    marginTop: 50,
-    backgroundColor: '#C5283D',
-    height: 80,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  title: {
-    fontSize: 18,
-    color: 'white',
-    fontWeight: 'bold'
+  input: {
+    width: '100%',
+    maxWidth: 110,
+    fontSize: 25,
+    borderColor: 'black',
+    marginTop:20,
+    borderBottomWidth:1,
+    textAlign:'center',
   },
 });

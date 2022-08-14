@@ -27,16 +27,8 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     marginHorizontal: 20,
     paddingVertical: 20,
-    elevation:5
-  },
-  input: {
-    width: '100%',
-    maxWidth: 110,
-    fontSize: 25,
-    borderColor: 'black',
-    marginTop:20,
-    borderBottomWidth:1,
-    textAlign:'center'
+    elevation:5,
+    marginBottom:20
   },
   buttonContainer: {
     flexDirection: 'row',
@@ -44,4 +36,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-around',
     marginTop: 20,
   },
+  summaryContainer:{
+marginHorizontal:20,
+alignItems:'center',
+alignSelf: 'center',
+paddingVertical:10
+  },
+  summaryText:{
+
+  }
 });

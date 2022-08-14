@@ -1,13 +1,11 @@
 import React from "react";
+import { TextInput } from "react-native";
 
 import { styles } from './styles';
 
-const Input = ({ }) => {
-  return (
-    <View style={styles.container}>
-      
-    </View>
-  );
+
+const Input = ({ style, ...props }) => {
+  return <TextInput style={{ ...styles.input, ...style }} {...props} />;
 };
 
 export default Input;
